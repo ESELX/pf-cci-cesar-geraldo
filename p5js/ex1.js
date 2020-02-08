@@ -6,10 +6,11 @@ function setup(){
 }
 
 
+
 function draw() {
   background(0);
   fill(255);
-  stroke(252, 3, 3);
+  stroke(hue,252, 3, 3);
   textSize(width / 50);
   text(dist(width/2, height/2, mouseX, mouseY),50,50);
   stroke(207, 252, 3);
